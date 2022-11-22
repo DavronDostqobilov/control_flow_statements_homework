@@ -8,6 +8,6 @@ def main(a):
     """
     if a>0:
         return a+1
-    if a<0:
+    if a<=0:
         return a-2
-print(main(-1))
+print(main(5))
